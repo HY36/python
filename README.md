@@ -1,1 +1,5 @@
-# python
+## python学习
+学习python的过程中写的一下代码。
+### 教程主要来源：
+* [廖雪峰](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+* [实验楼](https://www.shiyanlou.com/paths/python)
