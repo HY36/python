@@ -9,3 +9,5 @@ def fun(path):
                 c_time = time.localtime(cTime)
                 print(fn,time.strftime('%Y-%m-%d %H:%M:%S',c_time),size)
 fun('c:\\')
+
+

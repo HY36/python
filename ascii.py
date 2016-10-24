@@ -1,8 +1,8 @@
 from PIL import Image
 
-ascii_char =  list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. ")
+ascii_char = list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. ")
 
-def get_char(r,b,g,alpha=256):
+def get_char(r, b, g, alpha=256):
     if alpha == 0:
         return ' '
     length = len(ascii_char)
@@ -13,7 +13,7 @@ def get_char(r,b,g,alpha=256):
     return ascii_char[int(gray/unit)]
 
 if __name__ == '__main__':
-    im = Image.open('ascii_dora.png')
+    im = Image.open(input('please input:'))
     w,h = im.size
 
     txt = " "
